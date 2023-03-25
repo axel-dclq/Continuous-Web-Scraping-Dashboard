@@ -56,6 +56,20 @@ app.layout = html.Div(children=[
         #     }
         # }
         figure = fig
+    ),
+    dcc.Graph(
+        id='world-population-graph',
+        # figure={
+        #     'data': [
+        #         {'x': df['date'], 'y': df['world_population'], 'type': 'line', 'name': 'Population mondiale'},
+        #     ],
+        #     'layout': {
+        #         'title': 'Population mondiale',
+        #         'xaxis': {'title': 'Date'},
+        #         'yaxis': {'title': 'Population'}
+        #     }
+        # }
+        figure = fig
     )
 ])
 
