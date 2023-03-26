@@ -24,9 +24,9 @@ Clone this repository.
 <br>View the dashboard in a web browser by navigating to http://127.0.0.1:8050/.
 
 ### **Note about application stability and data sourcing**
-Please note that due to the use of multiple callbacks, the application may experience occasional bugs or slow response times. We are continually working to optimize the performance of the application, but please be patient if you experience any issues.
+Please note that due to the use of multiple callbacks, the application may experience occasional bugs or slow response times. I am continually working to optimize the performance of the application, but please be patient if you experience any issues.
 
-Additionally, we would like to note that the decision to scrape population data every 5 minutes may not be the most efficient way to highlight the data. We are constantly evaluating different methods for data sourcing and will adjust our approach as necessary to improve the accuracy and stability of the application.
+Additionally, I would like to note that the decision to scrape population data every 5 minutes may not be the most efficient way to highlight the data. I am constantly evaluating different methods for data sourcing and will adjust our approach as necessary to improve the accuracy and stability of the application.
 
-Thank you for your understanding and please feel free to reach out to us with any feedback or questions.
+Thank you for your understanding and please feel free to reach out to me with any feedback or questions.
 
