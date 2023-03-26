@@ -15,5 +15,5 @@ population_growth_year_to_date=$(echo "$html" | grep -Po '(?<=<td class="counter
 population_growth_today=$(echo "$html" | grep -Po '(?<=<td class="counter"><div id="cp13">)[^<]+')
 
 
-echo "$datetime;$world_population;$male_population;$female_population;$birth_year_to_date;$birth_today;$deaths_year_to_date;$deaths_today;$population_growth_year_to_date;$population_growth_today" >> /home/axel-dclq/Project_ESILV_2023/data.csv
+echo "$datetime;$world_population;$male_population;$female_population;$birth_year_to_date;$birth_today;$deaths_year_to_date;$deaths_today;$population_growth_year_to_date;$population_growth_today" >> /home/ubuntu/Project_ESILV_2023/data.csv
 
