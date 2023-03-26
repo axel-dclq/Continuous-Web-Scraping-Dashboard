@@ -21,7 +21,7 @@ Find a website with dynamic information that changes regularly. We recommend usi
 Clone this repository.
 <br>Set up a cron job to run the get_informations.sh script at the desired interval.
 <br>Run the main.py file to start the dashboard.
-<br>View the dashboard in a web browser by navigating to http://127.0.0.1:8050/.
+<br>View the dashboard in a web browser by navigating to http://13.50.232.166:8050/.
 
 ### **Note about application stability and data sourcing**
 Please note that due to the use of multiple callbacks, the application may experience occasional bugs or slow response times. I am continually working to optimize the performance of the application, but please be patient if you experience any issues.
