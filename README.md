@@ -10,18 +10,18 @@ This project is designed to provide up-to-date information from continuous scrap
 
 ### **Getting Started**
 Find a website with dynamic information that changes regularly. We recommend using a website with a stable HTML structure, such as https://countrymeters.info/en/World.
-Use Bash to retrieve the specific information you want to display and save it to a CSV file.
-Use Python and the Dash package to create a dashboard that displays the information in an easy-to-read format.
-Include a graph that displays the time series of the data you've scraped.
-Use cron to update the dashboard every 5 minutes.
-Include a daily report that's updated at 8 pm each day. This report should contain several metrics that provide insight into the data you've scraped.
-Additional features are welcome if they add value to the dashboard.
+<br>Use Bash to retrieve the specific information you want to display and save it to a CSV file.
+<br>Use Python and the Dash package to create a dashboard that displays the information in an easy-to-read format.
+<br>Include a graph that displays the time series of the data you've scraped.
+<br>Use cron to update the dashboard every 5 minutes.
+<br>Include a daily report that's updated at 8 pm each day. This report should contain several metrics that provide insight into the data you've scraped.
+<br>Additional features are welcome if they add value to the dashboard.
 
 ### **Usage**
 Clone this repository.
-Set up a cron job to run the get_informations.sh script at the desired interval.
-Run the main.py file to start the dashboard.
-View the dashboard in a web browser by navigating to http://127.0.0.1:8050/.
+<br>Set up a cron job to run the get_informations.sh script at the desired interval.
+<br>Run the main.py file to start the dashboard.
+<br>View the dashboard in a web browser by navigating to http://127.0.0.1:8050/.
 
 ### **Note about application stability and data sourcing**
 Please note that due to the use of multiple callbacks, the application may experience occasional bugs or slow response times. We are continually working to optimize the performance of the application, but please be patient if you experience any issues.
