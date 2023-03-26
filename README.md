@@ -28,5 +28,7 @@ Please note that due to the use of multiple callbacks, the application may exper
 
 Additionally, I would like to note that the decision to scrape population data every 5 minutes may not be the most efficient way to highlight the data. I am constantly evaluating different methods for data sourcing and will adjust our approach as necessary to improve the accuracy and stability of the application.
 
+I also noticed that the site on which I retrieve data has some bugs around midnight. Indeed, it displays negative values for the number of births and deaths.
+
 Thank you for your understanding and please feel free to reach out to me with any feedback or questions.
 
