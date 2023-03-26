@@ -2,11 +2,11 @@
 This project is designed to provide up-to-date information from continuous scraping of a website and display it on an online dashboard. The dashboard is built using Python and the Dash package.
 
 ### **Requirements**
-Bash
-Python 3.x
-Dash
-Cron
-
+- Bash
+- Python 3.9.7
+- Dash
+- Plotly
+- Cron
 
 ### **Getting Started**
 Find a website with dynamic information that changes regularly. We recommend using a website with a stable HTML structure, such as https://countrymeters.info/en/World.
@@ -19,9 +19,14 @@ Additional features are welcome if they add value to the dashboard.
 
 ### **Usage**
 Clone this repository.
-Set up a cron job to run the scrape.sh script at the desired interval.
-Run the app.py file to start the dashboard.
-View the dashboard in a web browser by navigating to http://localhost:8050.
+Set up a cron job to run the get_informations.sh script at the desired interval.
+Run the main.py file to start the dashboard.
+View the dashboard in a web browser by navigating to http://127.0.0.1:8050/.
 
-### **License**
-This project is licensed under the MIT License - see the LICENSE file for details.
+### **Note about application stability and data sourcing**
+Please note that due to the use of multiple callbacks, the application may experience occasional bugs or slow response times. We are continually working to optimize the performance of the application, but please be patient if you experience any issues.
+
+Additionally, we would like to note that the decision to scrape population data every 5 minutes may not be the most efficient way to highlight the data. We are constantly evaluating different methods for data sourcing and will adjust our approach as necessary to improve the accuracy and stability of the application.
+
+Thank you for your understanding and please feel free to reach out to us with any feedback or questions.
+
